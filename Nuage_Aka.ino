@@ -14,11 +14,11 @@ This paragraph must be included in any redistribution.
 #include <Wire.h>
 #include "FastLED.h"
 
-// How many leds in your strip?
+// Ruban LED
 #define NUM_LEDS 25 //Changer ce nombre selon la quantité de LEDs dans le ruban
-#define DATA_PIN 6  //Connecter le câble du milieu (din) sur le port digital 6 de l'arduino
+#define DATA_PIN 6  //Connecter le câble du milieu "din" (change selon le modèle) sur le port digital 6 de l'arduino
 
-//Ultrason
+//Capteur ultrason
 int trigPin = 9;    // Trigger
 int echoPin = 10;    // Echo
 long duration, cm;
